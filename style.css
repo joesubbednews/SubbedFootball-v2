@@ -272,7 +272,8 @@ caption {
 
 .chart_images {
     max-height: 300px;
-    max-width: 100%
+    max-width: 100%;
+    text-align: center;
 }
 
 #goals_shots_and_fouls_cards_header {
