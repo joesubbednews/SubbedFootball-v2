@@ -1,0 +1,520 @@
+body {
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: xx-large;
+}
+
+p {
+    margin: 0px 0px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+#container_header {
+    font-weight: bolder;
+    background-color: #000063;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+#item_header {
+    background-color: white;
+    color: black;
+}
+
+#links a:link {
+    color: black;
+}
+
+#links a:visited {
+    color: #960808;
+}
+
+#links a:hover {
+    color: #000063;
+}
+
+#links a:active {
+    color: #014a14;
+}
+
+#image_links {
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#container_matches {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container_matches_side {
+    width: 33%;
+    min-width: fit-content;
+    margin-bottom: 20px;
+}
+
+.container_matches_center {
+    width: 34%;
+    min-width: fit-content;
+    margin-bottom: 20px;
+}
+
+.matches_table {
+    border-bottom: 2px solid black;
+    border-collapse: collapse;
+    min-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.matches_table td,
+caption {
+    padding: 5px;
+}
+
+.matches_table caption {
+    font-size: large;
+    font-weight: bold;
+    border-top: 2px solid black;
+}
+
+.matches_table tr {
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+
+.matches_table .col0 {
+    text-align: right;
+    padding-left: 10px;
+}
+
+.matches_table .col1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.matches_table .col2 {
+    padding-right: 10px;
+}
+
+.matches_table a:link {
+    color: inherit;
+}
+
+.matches_table a:visited {
+    color: inherit;
+}
+
+.matches_table a:hover {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.matches_table a:active {
+    color: inherit;
+    text-decoration: underline overline;
+}
+
+.matches_text {
+    font-size: large;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.matches_text a:link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.matches_text a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+.matches_text a:hover {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.matches_text a:active {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.match_header {
+    font-weight: bold;
+}
+
+.match_teams {
+    font-size: x-large;
+    margin-bottom: 5px;
+    font-weight: bolder;
+}
+
+#match_last .match_header {
+    color: #000063;
+}
+
+#match_next .match_header {
+    color: #014a14;
+}
+
+.barborder {
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: center;
+}
+
+.barborder img {
+    height: 25px;
+    vertical-align: center;
+}
+
+.barborder_chart {
+    height: 50px;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+#results_barborder {
+    border-top: 2px solid black;
+}
+
+.container_graphics {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#top_scorers {
+    display: flex;
+    flex-wrap: no-wrap;
+    align-items: center;
+}
+
+.top_scorers_table caption {
+    font-size: large;
+    font-weight: bold;
+    padding-bottom: 0px;
+}
+
+.top_scorers_table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+.top_scorers_table td {
+    padding-right: 5px;
+    color: #960808;
+}
+
+.top_scorers_table .col0 {
+    text-align: right;
+    font-weight: bold;
+}
+
+.top_scorers_table .row0 {
+    color: #014a14;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.top_scorers_table .row1 {
+    color: #000063;
+}
+
+#top_scorers_text p {
+    font-weight: light;
+    font-size: smaller;
+    border-top: 1px solid black;
+    padding-top: 2px;
+    text-align: center;
+}
+
+.chart_images {
+    max-height: 300px;
+    max-width: 100%
+}
+
+#goals_shots_and_fouls_cards_header {
+    width: 100%;
+    text-align: center;
+}
+
+#footer_whitespace {
+    height: 30px;
+    background-color: white;
+    color: white;
+}
+
+#footer {
+    display: flex;
+    background-color: black;
+    height: 30px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    position: fixed; 
+    bottom:0%;
+    width: 100%;
+}
+
+#footer:hover {
+    background-color: white;
+    color: black;
+}
+
+.league_table {
+    border-collapse: collapse;
+    min-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.league_table tr {
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+
+.league_table .level0.col0, .level0.col1, .level0.col2 {
+    font-size: 0;
+}
+
+.league_table {
+    text-align: center;
+}
+
+.league_table th, td {
+    padding: 5px;
+    vertical-align: center;
+}
+
+.league_table .col0 {
+    text-align: right;
+}
+
+.league_table .col2 {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.league_table img {
+    height: 20px;
+    vertical-align: middle;
+}
+
+.league_table .col10 {
+    padding: 0px;
+}
+
+.league_table a:link {
+    color: inherit;
+}
+
+.league_table a:visited {
+    color: inherit;
+}
+
+.league_table a:hover {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.league_table a:active {
+    color: inherit;
+    text-decoration: underline overline;
+}
+
+.header_gender {
+    background-color: #014a14;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.header_gender h2 {
+    margin-top: 10px;
+}
+
+.header_country {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: white;
+    background-color: black;
+}
+
+.competition_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 2%;
+    margin-bottom: 20px;
+}
+
+.competition_container_left {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+    gap: 10px;
+    width: 49%;
+    min-width: fit-content;
+}
+
+.competition_container_right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    width: 49%;
+    min-width: fit-content;
+}
+
+.competition_header {
+    font-size: x-large;
+    font-weight: bolder;
+    color: black;
+}
+
+.competition_logo {
+    height: 75px;
+}
+
+.competition_header a:link {
+    color: inherit;
+}
+
+.competition_header a:visited {
+    color: inherit;
+}
+
+.competition_header a:hover {
+    color: #960808;
+    text-decoration: underline;
+}
+
+.competition_header a:active {
+    color: inherit;
+    text-decoration: underline overline;
+}
+
+.competition_links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;
+}
+
+.competition_link {
+    color: black;
+    /* change to blue when we have results (red) and fixtures (green) in*/
+}
+
+.competition_link a:link {
+    color: inherit;
+}
+
+.competition_link a:visited {
+    color: inherit;
+}
+
+.competition_link a:hover {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.competition_link a:active {
+    color: inherit;
+    text-decoration: underline overline;
+}
+
+.competition_top_3 {
+    border-collapse: collapse;
+}
+
+.competition_top_3 td {
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.competition_top_3 .col0 {
+    text-align: right;
+}
+
+.competition_top_3 .col1 {
+    font-weight: bold;
+}
+
+.competition_top_3 .row0 {
+    color: #014a14;
+}
+
+.competition_top_3 .row1 {
+    color: #000063;
+}
+
+.competition_top_3 .row2 {
+    color: #960808;
+}
+
+.competition_top_3 a:link {
+    color: inherit;
+}
+
+.competition_top_3 a:visited {
+    color: inherit;
+}
+
+.competition_top_3 a:hover {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.competition_top_3 a:active {
+    color: inherit;
+    text-decoration: underline overline;
+}
