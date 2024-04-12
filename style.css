@@ -420,8 +420,14 @@ caption {
     color: black;
 }
 
+.competition_image {
+    width: 75px;
+    text-align: center;
+}
+
 .competition_logo {
-    height: 75px;
+    max-width: 75px;
+    max-height: 75px;
 }
 
 .competition_header a:link {
