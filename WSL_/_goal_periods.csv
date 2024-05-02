@@ -1,9 +1,9 @@
 ,id,name,gs_mins_1_15,gs_mins_16_30,gs_mins_31_45,gs_mins_45plus,gs_mins_46_60,gs_mins_61_75,gs_mins_76_90,gs_mins_90plus,gc_mins_1_15,gc_mins_16_30,gc_mins_31_45,gc_mins_45plus,gc_mins_46_60,gc_mins_61_75,gc_mins_76_90,gc_mins_90plus
 0,10576,Manchester City Women,9,9,10,3,11,7,7,2,3,1,0,0,2,1,3,2
-0,10578,Chelsea Women,8,9,7,1,9,9,9,1,5,1,4,0,0,1,3,0
+0,10578,Chelsea Women,9,9,7,1,9,9,11,1,5,1,4,0,1,2,4,1
 0,10581,Arsenal Women,9,2,8,1,8,6,7,5,2,5,4,0,4,1,1,2
 0,668366,Manchester United Women,8,3,3,1,7,4,10,6,4,3,8,0,4,1,4,1
-0,10577,Liverpool Women,3,4,3,0,7,4,4,2,2,6,3,1,6,3,3,1
+0,10577,Liverpool Women,3,4,3,0,8,5,5,3,3,6,3,1,6,3,5,1
 0,668367,Tottenham Hotspur Women,3,2,7,3,3,5,2,1,4,6,3,0,9,4,2,4
 0,668370,Aston Villa Ladies,3,4,3,0,7,3,3,2,2,8,4,1,5,10,7,4
 0,10665,Brighton & Hove Albion Women,4,4,1,0,2,4,7,4,3,2,3,2,11,10,7,4
